@@ -13,6 +13,16 @@ To install the git version (master),
 yay -S archivy-git
 ```
 
+If you do not want to use an AUR helper, you can always install 
+`archivy` or `archivy-git` using `makepkg`
+
+```bash
+git clone https://aur.archlinux.org/archivy
+cd archivy
+makepkg -si
+```
+
+
 License
 -------
 
